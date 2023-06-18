@@ -1,0 +1,19 @@
+{
+  "name": "game-time-travel",
+  "version": "1.0.0",
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+  "description": "Text game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ihor Orlov",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
