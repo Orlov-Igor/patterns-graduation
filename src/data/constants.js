@@ -2,7 +2,18 @@ const PROLOGUE = "Червень 2023 року просто створений �
 
 const DISCHARGE = "\nІндикатор заряду спалахнув червоним та пронизливо заверещав. Тільки не це, не зараз! Схоже, ваша подорож завершилася - більше нема енергії на переміщення. Тепер вам доведеться шукати свій шлях у абсолютно незнайомому часі. Ви вже ніколи не повернетеся додому, але хто знає, можливо, вам ще пощастить зробити щасливими людей у цьому часі вже без допомоги гаджетів, лише власною працею та розумом..."
 
+const GREAT_PHILOSOPHER_REDUCTION_FACTOR = 2.5;
+const MEDIUM_PHILOSOPHER_REDUCTION_FACTOR = 1.7;
+const LOW_SCIENTIST_INCREASE_FACTOR = 1.2;
+const MEDIUM_SCIENTIST_REDUCTION_FACTOR = 1.5;
+const LOW_PHILOSOPHER_INCREASE_FACTOR = 1.1;
+
 module.exports = {
     PROLOGUE,
-    DISCHARGE
+    DISCHARGE,
+    GREAT_PHILOSOPHER_REDUCTION_FACTOR,
+    MEDIUM_PHILOSOPHER_REDUCTION_FACTOR,
+    LOW_SCIENTIST_INCREASE_FACTOR,
+    MEDIUM_SCIENTIST_REDUCTION_FACTOR,
+    LOW_PHILOSOPHER_INCREASE_FACTOR
 }
